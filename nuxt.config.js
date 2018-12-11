@@ -67,5 +67,12 @@ module.exports = {
         })
       }
     }
+  },
+
+  render: {
+    bundleRenderer: {
+      runInNewContext: false
+    }
   }
+
 }
